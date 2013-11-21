@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/foundation/version', __FILE__)
+# require File.expand_path('../lib/foundation/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["ZURB"]
@@ -13,9 +13,9 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "foundation-compass-template"
   # gem.require_paths = ["lib"]
-  gem.version       = "0.0.1"
+  gem.version       = Foundation::VERSION
 
-  gem.add_dependency "sass", [">= 3.2.0"]
+  # gem.add_dependency "sass", [">= 3.2.0"]
   # gem.add_development_dependency "rake"
   # gem.add_development_dependency "jasmine"
 end
